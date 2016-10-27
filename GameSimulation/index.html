@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeremiah Homework</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload = "PageLoad();">
+<table>
+    <tr><td>Number of Simulation</td><td width="40px"><input type="text" id="Cheatbox"></td></tr>
+</table>
+
+<P><tr><td><input type="checkbox" id="chkCheatMode"></td>Cheat Mode<br></P>
+
+<p><input type = "button" value = "Play" onclick ="PlayGame();"></p>
+
+
+<p>
+<table>
+    <tr><td></td>           <td>Wins</td><td>Percentage</td></tr>
+    <tr><td>Player</td>    <td width="40px"><div id = "divPlayerWins">&nbsp;</div></td><td><div id="divPlayerPercent"></div></td></tr>
+    <tr><td>Computer</td>  <td><div id = "divComputerWins">&nbsp;</div></td><td><div id="divComputerPercent"></div></td></tr>
+    <tr><td>Ties</td>           <td><div id = "divTies">&nbsp;</div></td><td><div id="divTiesPercent"></div></td></tr>
+</table>
+</p>
+
+<input type = "button" value="Save and Close" onclick = "Close();">
+<input type = "button" value = "Clear Session" onclick = "ClearSession();">
+
+<script type = "text/javascript" src="js.js"></script>
+</body>
+</html>

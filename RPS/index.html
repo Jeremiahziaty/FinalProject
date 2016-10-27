@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload = "PageLoad();">
+
+
+<h2>Rock Paper Scissors</h2>
+
+Player Choice:
+<select id = "playerChoices">
+    <option>Rock</option>
+    <option>Paper</option>
+    <option>Scissors</option>
+</select>
+
+<p><input type = "button" value = "Play" onclick ="PlayGame();"></p>
+
+<div style = text-align:center>
+<table>
+    <tr><td>Player Choice</td><td>Computer Choice</td></tr>
+    <tr><td><img id = "picPlayer" height = 110 width = 100></td><td><img id = "picComputer" height = 100 width = 100></td></tr>
+    <tr><td colspan = "2"><div id = "divSummary">&nbsp;</div></td></tr>
+</table>
+</div>
+
+<p>
+<table>
+    <tr><td></td>           <td>Wins</td><td>Percentage</td></tr>
+    <tr><td>Player</td>    <td width="40px"><div id = "divPlayerWins">&nbsp;</div></td><td><div id="divPlayerPercent"></div></td></tr>
+    <tr><td>Computer</td>  <td><div id = "divComputerWins">&nbsp;</div></td><td><div id="divComputerPercent"></div></td></tr>
+    <tr><td>Ties</td>           <td><div id = "divTies">&nbsp;</div></td><td><div id="divTiesPercent"></div></td></tr>
+</table>
+</p>
+
+<input type = "button" value="Save and Close" onclick = "Close();">
+<input type = "button" value = "Clear Session" onclick = "ClearSession();">
+
+<script type = "text/javascript" src="rps.js"></script>
+</body>
+</html>

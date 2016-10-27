@@ -1,0 +1,4 @@
+.outputTable td, .outputTable th, .averageTable td{border:1px solid black;border-collapse:collapse;}
+table.outputTable, table.averageTable {border:1px solid black;border-collapse:collapse;}
+
+table.averageTable td{width:125px;}

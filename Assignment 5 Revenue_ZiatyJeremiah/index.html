@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Revenue Calculator</title>
+    <link rel="stylesheet" type = "text/css" href="styles.css">
+
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+
+    <table>
+        <tr><td>Adult price/ticket:</td><td><input type="text"  id="txtADPriceTicket"></td></tr>
+        <tr><td>Adult tickets sold:</td><td><input type="text" id="txtADTickSold"></td></tr>
+        <tr><td>Child price/ticket:</td><td><input type="text" id="txtCHPriceTicket"></td></tr>
+        <tr><td>Child tickets sold:</td><td><input type="text" id="txtChTicketSold"></td></tr>
+    </table>
+
+    <input type = "button" value = "Calculate Revenue" onclick = "CalculateRevenue()">
+    <input type = "button" value = "Clear" onclick = "ClearForm()">
+
+    <hr>
+
+    <table class="outputTable">
+        <tr><th>Type</th><th>Gross Revenue</th><th>Net Revenue</th></tr>
+        <tr><td>Adult</td><td><div id=divADGrossTicketAmount></div></td><td><div id=divADNetTicketAmount></div></td></tr>
+        <tr><td>Child</td><td><div id=divCHGrossTickAmount></div></td><td><div id=divCHNetticketAmount></div></td></tr>
+        <tr><td>Total</td><td><div id=divTotalGross></div></td><td><div id=divTotalNet></div></td></tr>
+    </table>
+
+    <p></p>
+
+    <table class="averageTable">
+        <tr><td>Average Gross Revenue/ticket:</td><td><div id=divGrossAmount></div></td></tr>
+        <tr><td>Average Net Revenue/ticket:</td><td><div id=divNetAmount></div></td></tr>
+    </table>
+
+    <script src="js.js"></script>
+</body>
+</html>
