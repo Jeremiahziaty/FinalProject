@@ -1,0 +1,12 @@
+h1{text-align: center; color: white}
+body { background-color: black}
+h2 {color: red}
+h2 {color: red}
+p{color: white}
+h3{text-align: right}
+#locator { position: absolute; visibility: visible; right: 150px; top: 400px; z-index: 200; }
+
+button#next{position: absolute; visibility: visible; right: 150px; top: 620px; z-index: 200;
+    width: 11em;  height: 2em; color: green}
+body#name{text-align: center; background-color: green;}
+
