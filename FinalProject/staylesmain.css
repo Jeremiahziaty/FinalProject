@@ -1,1 +1,95 @@
+body{
+    background-color: red;}
+
+div{text-align: center}
+
+p{clear: right; height:150px}
+.textBox {
+    background-color: #ffffc0;
+    border-color:  #006000 #90f090 #90f090 #006000;
+    border-style: solid;
+    border-width: 1px;
+    clear: right;
+    color: #000000;
+    float: right;
+    font-family: "Times New Roman", serif;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding: .1em;
+    text-align: center;
+    width: 12em;
+}
+input#riskitall {
+    position: relative; float: right; top:40px; right: -200px}
+input#chckRisk {
+    position: relative; float: right; top:40px; right: -100px}
+
+input#Username,input#inputt{
+    background-color: blue;
+    border-color:  #006000 #90f090 #90f090 #006000;
+    border-style: dotted;
+    border-width: 2px;
+    clear: right;
+    color: white;
+    float: right;
+    font-family: "Times New Roman", serif;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: .5em;
+    padding: .1em;
+    text-align: center;
+    width: 12em;
+}
+#increase{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-image: url("images/5dollar.PNG");
+    background-size: 90px ;
+    background-position: 135% 10%;
+    position: absolute; visibility: visible; right: 680px; top: 380px; z-index: 200;
+
+}
+#increase25{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-image: url("images/25dollars.PNG");
+    background-size: 90px ;
+    background-position: -10% 50%;
+    position: absolute; visibility: visible; right: 590px; top: 350px; z-index: 200;
+}
+#increase50{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-image: url("images/50dollars.PNG");
+    background-size: 90px ;
+    background-position: 50% 50%;
+    position: absolute; visibility: visible; right: 498px; top: 350px; z-index: 200;
+}
+#increase100{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    background-image: url("images/100dollar.PNG");
+    background-size: 90px ;
+    background-position: 50% 50%;
+    position: absolute; visibility: visible; right: 412px; top: 380px; z-index: 200;
+}
+input#decrease {
+    padding: 5px;
+    border: 1px dotted #ccc;
+    margin: 2%;
+    height: 20px;
+    text-align: center;
+    width:25px;
+    color: red;
+    background-color: black;
+    position: relative; float: right; bottom:19px; right: -19px}
+input#deal{
+    position: absolute; visibility: visible; right: 525px; top: 500px; z-index: 200;
+    width: 11em;  height: 2em; color: green
+}
 
