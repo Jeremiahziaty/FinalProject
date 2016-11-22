@@ -42,8 +42,10 @@
         <input id="increase100"  class="button" type="reset" value="" onclick="changeBet(+100);return false;" />
         <input type="checkbox" id="chckRisk" onclick="Enablerisk();">
         <input id="riskitall"  class="button" type="reset"  value="risk it all" onclick="changeBet(+500);return false;" disabled />
+                <input id="double"    class="button" type="reset" value="Double"    onclick="playerDouble();return false;"    disabled="disabled" />
                 <br />
-
+                <input id="hit"       class="button" type="reset" value="Hit"        onclick="playerHit();return false;"   disabled="disabled" />
+                <input id="stand"     class="button" type="reset" value="Stand"      onclick="playerStand();return false;" disabled="disabled" />
 
             </div>
 </form>
